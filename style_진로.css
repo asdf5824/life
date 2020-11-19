@@ -1,0 +1,59 @@
+<style>
+  body{
+    margin:0;
+  }
+  #active{
+    color:red;
+  }
+  a {
+    color:navy;
+    text-decoration: none;
+  }
+  h1 {
+    font-size:45px;
+    text-align:center;
+    border-bottom:1px solid gray;
+    margin:0;
+    padding:20px;
+    font-family:휴먼엑스포;
+  }
+  H2{
+    color:navy;
+    font-family:맑은 고딕;
+    }
+  ol{
+    border-right:1px solid gray;
+    width:120px ;
+    margin:0;
+    padding:20px;
+    font-weight:bold;
+    padding-right:30px;
+  }
+  li{
+    padding-bottom:20px;
+    color:navy;
+  }
+  p{
+    font-family: 맑은 고딕;
+  }
+  #grid{
+    display: grid;
+    grid-template-columns: 150px 1fr;
+  }
+  #grid ol{
+    padding-left:30px;
+  }
+  #grid #article{
+    padding-left: 60px;
+  }
+  @media(max-width:800px){
+    #grid{
+      display: block;
+    }
+    ol{
+      border-right: none;
+    }
+    h1 {
+      border-bottom: none;
+    }
+</style>
